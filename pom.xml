@@ -59,20 +59,19 @@
         </dependencies>
     </dependencyManagement>
 	<repositories>
-	 <repository>
+	 <!-- <repository>
          <id>deployment</id>
          
          <url>http://localhost:8081/nexus/content/repositories/releases/</url>
-          <snapshots>
-		 <enabled>true</enabled>
-		 </snapshots>
-      </repository>
-	  <!-- <repository>
+      </repository> -->
+	  <repository>
          <id>deployment</id>
          
          <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
-		
-      </repository> -->
+		 <snapshots>
+		 <enabled>true</enabled>
+		 </snapshots>
+      </repository>
 	</repositories>
 	
 
