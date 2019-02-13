@@ -44,7 +44,7 @@
                     <button type="submit">Add Pet</button>
                 </c:when>
                 <c:otherwise>
-                    <button type="submit">Update Pet</button>
+                    <button type="submit">Update Pet if you want to</button>
                 </c:otherwise>
             </c:choose>
         </div>
